@@ -8,7 +8,7 @@
 
 Repository containing the implementation and experimental results for
 the research project on **detecting AI-generated texts using Machine
-Learning and Deep Learning techniques**.
+Learning and Deep Learning techniques**.<br> 
 
 The project explores multiple neural architectures including **CNNs,
 MobileNet-based models, and Transformer-based models** to distinguish
@@ -219,9 +219,9 @@ Install the required Python dependecies:
 ```bash
 pip install pandas numpy matplotlib seaborn tqdm torch scikit-learn
 ```
-The notebooks rely on the following Python libraries: pandas, numpy, matplotlib.pyplot, seaborn, tqdm.notebook, torch, torch.nn, torcch.utils.data, torch.cuda.amp and scikit-learn (`model_selection,metrics`). 
+The notebooks rely on the following Python libraries: **Pandas**, **Numpy**, **Matplotlib.pyplot**, **Seaborn**, **Tqdm.notebook**, **Torch**, **Torch.nn**, **Torcch.utils.data**, **Torch.cuda.amp** and **scikit-learn** (`model_selection`,`metrics`). 
 
-Additionally, several Python standard library modules are used: os, math, copy, re, random, collections. These modules are included in the standard Python distribution and do not require installation.
+Additionally, several Python standard library modules are used: **os**, **math**, **copy**, **re**, **random**, **collections**. These modules are included in the standard Python distribution and do not require installation.
 
 ### 4.  Run the notebooks sequentially.
 
