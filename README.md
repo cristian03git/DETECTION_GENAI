@@ -6,8 +6,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-blue)
 ![Research](https://img.shields.io/badge/Research-AI%20Text%20Detection-green)
 
-Repository containing the implementation and experimental results for the research project on **detecting AI-generated texts using Machine
-Learning and Deep Learning techniques**.<br>
+Repository containing the implementation and experimental results for the research project on **detecting AI-generated texts using Machine Learning and Deep Learning techniques**.<br>
 The project explores multiple neural architectures including **CNNs,MobileNet-based models, and Transformer-based models** to distinguish between **human-written texts and AI-generated texts**.<br>
 The experiments are implemented using **Python and Jupyter Notebooks**, with execution primarily performed in **Google Colab environments**.
 
@@ -58,7 +57,9 @@ These notebooks implement **Convolutional Neural Network classifiers** for detec
 
 ------------------------------------------------------------------------
 
-### `CNNmobilenet-DETECTOR_dtEN.ipynb`
+### MobileNet-based Detector
+
+`CNNmobilenet-DETECTOR_dtEN.ipynb`
 
 Implements a **MobileNet-inspired architecture** optimized for classification efficiency.
 
@@ -70,17 +71,16 @@ Implements a **MobileNet-inspired architecture** optimized for classification ef
 - `DETECTOR_dtEN.ipynb`
 - `DETECTOR_dtITA.ipynb`
 
-These notebooks implement **Multi-Layer Perceptron (MLP) models**
-for AI-generated text detection.
+These notebooks implement **Multi-Layer Perceptron (MLP) models** for AI-generated text detection.
 
 ------------------------------------------------------------------------
 
-### `TRANSFORMER-DETECTOR_dtEN.ipynb`
+### Transformer-based Model
 
-Implements a **Transformer-based architecture** for detecting
-AI-generated content.<br>
-Transformers are particularly effective for modeling long-range
-dependencies in text.
+`TRANSFORMER-DETECTOR_dtEN.ipynb`
+
+Implements a **Transformer-based architecture** for detecting AI-generated content.<br>
+Transformers are particularly effective for modeling long-range dependencies in text.
 
 ------------------------------------------------------------------------
 
@@ -108,13 +108,8 @@ The goal of these experiments is to evaluate the **effective robustness and gene
 # Results
 
 The `Results` folder contains experimental outputs stored as **Excel files**.<br>
-These files report the results obtained from **online AI-text detection tools** used as a benchmark for comparison with the detectors implemented in this
-repository.
-
-In particular, the Excel files collect the **percentages of AI-generated
-content detected within the texts of each dataset**. These values allow a
-direct comparison between the performance of external detectors and the
-models implemented in this project.
+These files report the results obtained from **online AI-text detection tools** used as a benchmark for comparison with the detectors implemented in this repository.<br>
+In particular, the Excel files collect the **percentages of AI-generated content detected within the texts of each dataset**. These values allow a direct comparison between the performance of external detectors and the models implemented in this project.
 
 ### Files included
 
@@ -125,9 +120,7 @@ models implemented in this project.
 - `mydt_train-DetectionAI.xlsx`
 - `mydt_test-DetectionAI.xlsx`
 
-Each file contains the detection results for the corresponding dataset,
-reporting the **percentage of AI detected in the texts analyzed by different
-online detection systems**.
+Each file contains the detection results for the corresponding dataset, reporting the **percentage of AI detected in the texts analyzed by different online detection systems**.
 
 ------------------------------------------------------------------------
 
@@ -154,9 +147,7 @@ used to train and evaluate the detection models.
 
 `Overview_DetectionAI.xlsx`
 
-This file aggregates the main experimental results across all evaluated
-models.
-
+This file aggregates the main experimental results across all evaluated models.<br>
 It allows quick comparison of model performance.
 
 ------------------------------------------------------------------------
@@ -196,9 +187,8 @@ Install the required Python dependecies:
 ```bash
 pip install pandas numpy matplotlib seaborn tqdm torch scikit-learn
 ```
-The notebooks rely on the following Python libraries: **Pandas**, **Numpy**, **Matplotlib.pyplot**, **Seaborn**, **Tqdm.notebook**, **Torch**, **Torch.nn**, **Torcch.utils.data**, **Torch.cuda.amp** and **scikit-learn** (`model_selection`,`metrics`). 
-
-Additionally, several Python standard library modules are used: **os**, **math**, **copy**, **re**, **random**, **collections**. These modules are included in the standard Python distribution and do not require installation.
+The notebooks rely on the following Python libraries: **Pandas**, **Numpy**, **Matplotlib.pyplot**, **Seaborn**, **Tqdm.notebook**, **Torch**, **Torch.nn**, **Torcch.utils.data**, **Torch.cuda.amp** and **scikit-learn** (`model_selection`,`metrics`).<br><br>
+Additionally, several Python standard library modules are used: **os**, **math**, **copy**, **re**, **random**, **collections**. <br> These modules are included in the standard Python distribution and do not require installation.
 
 ### 4.  Run the notebooks sequentially.
 
@@ -206,8 +196,7 @@ Additionally, several Python standard library modules are used: **os**, **math**
 
 # Citation
 
-If you use this repository in your research, please cite the
-corresponding work.
+If you use this repository in your research, please cite the corresponding work.
 
     @misc{buttaro2026genai_detection,
       author = {Cristian Buttaro},
