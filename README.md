@@ -1,13 +1,23 @@
 # DETECTION_GENAI
 
+![Status](https://img.shields.io/badge/status-arXiv%20preprint-blue)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.18750-b31b1b.svg)](https://arxiv.org/abs/2603.18750)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-blue)
 ![Research](https://img.shields.io/badge/Research-AI%20Text%20Detection-green)
 
-Repository containing the implementation and experimental results for the research project on **detecting AI-generated texts using Machine Learning and Deep Learning techniques**.<br>
-The project explores multiple neural architectures including **CNNs,MobileNet-based models, and Transformer-based models** to distinguish between **human-written texts and AI-generated texts**.<br>
+## 📄 Paper
+
+This repository accompanies the paper:<br>
+**Automatic Detection of Gen-AI Texts: A Comparative Framework of Neural Models**<br>  
+[https://arxiv.org/abs/2603.18750](https://arxiv.org/abs/2603.18750) <br>
+The repository provides all the resources required to reproduce the experiments presented in the paper, including datasets, models, and evaluation results.<br>
+
+------------------------------------------------------------------------
+This repository contains the implementation and experimental results for the research project on **detecting AI-generated texts using Machine Learning and Deep Learning techniques**.<br>
+The project explores multiple neural architectures including **CNNs, MobileNet-based models, and Transformer-based models** to distinguish between **human-written texts and AI-generated texts**.<br>
 The experiments are implemented using **Python and Jupyter Notebooks**, with execution primarily performed in **Google Colab environments**.
 
 ------------------------------------------------------------------------
@@ -187,7 +197,7 @@ Install the required Python dependecies:
 ```bash
 pip install pandas numpy matplotlib seaborn tqdm torch scikit-learn
 ```
-The notebooks rely on the following Python libraries: **Pandas**, **Numpy**, **Matplotlib.pyplot**, **Seaborn**, **Tqdm.notebook**, **Torch**, **Torch.nn**, **Torcch.utils.data**, **Torch.cuda.amp** and **scikit-learn** (`model_selection`,`metrics`).<br><br>
+The notebooks rely on the following Python libraries: **Pandas**, **Numpy**, **Matplotlib.pyplot**, **Seaborn**, **Tqdm.notebook**, **Torch**, **Torch.nn**, **Torch.utils.data**, **Torch.cuda.amp** and **scikit-learn** (`model_selection`,`metrics`).<br><br>
 Additionally, several Python standard library modules are used: **os**, **math**, **copy**, **re**, **random**, **collections**. <br> These modules are included in the standard Python distribution and do not require installation.
 
 ### 4.  Run the notebooks sequentially.
