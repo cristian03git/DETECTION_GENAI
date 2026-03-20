@@ -1,6 +1,5 @@
 # DETECTION_GENAI
 
-![Status](https://img.shields.io/badge/status-arXiv%20preprint-blue)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.18750-b31b1b.svg)](https://arxiv.org/abs/2603.18750)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
@@ -11,7 +10,7 @@
 ## 📄 Paper
 
 This repository accompanies the paper:<br>
-**Automatic Detection of Gen-AI Texts: A Comparative Framework of Neural Models**<br>  
+**Automatic Detection of Gen-AI Texts: A Comparative Framework of Neural Models**  
 [https://arxiv.org/abs/2603.18750](https://arxiv.org/abs/2603.18750) <br>
 The repository provides all the resources required to reproduce the experiments presented in the paper, including datasets, models, and evaluation results.<br>
 
