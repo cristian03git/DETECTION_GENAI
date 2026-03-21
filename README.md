@@ -1,6 +1,7 @@
 # DETECTION_GENAI
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.18750-b31b1b.svg)](https://arxiv.org/abs/2603.18750)
+[![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/cristian03/ARTandMH)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
